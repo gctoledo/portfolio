@@ -13,6 +13,8 @@ const Home = () => {
         <About />
 
         <Projects />
+
+        <Stacks />
       </div>
 
       <Footer />

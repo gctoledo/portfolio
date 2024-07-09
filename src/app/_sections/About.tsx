@@ -3,7 +3,7 @@ import Avatar from "../_components/Avatar";
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-9 items-center text-center">
+    <div className="flex flex-col gap-9 items-center text-center px-2">
       <Avatar />
 
       <h1 className="text-3xl md:text-5xl font-bold leading-tight select-none">
