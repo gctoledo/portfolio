@@ -8,7 +8,7 @@ const About = () => {
         <Image src={"/Avatar.png"} quality={100} fill alt="Avatar" />
       </div>
 
-      <h1 className="text-3xl md:text-5xl font-bold leading-tight">
+      <h1 className="text-3xl md:text-5xl font-bold leading-tight select-none">
         Escrevendo{" "}
         <span className="bg-gradient-to-br from-[#FF8660] to-[#9A33FF] bg-clip-text text-transparent">
           códigos

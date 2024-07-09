@@ -7,7 +7,7 @@ const Projects = () => {
         Projetos
       </h2>
 
-      <div className="flex gap-6 overflow-x-scroll">
+      <div className="flex gap-6 overflow-x-scroll overflow-y-hidden px-1">
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
