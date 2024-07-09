@@ -3,7 +3,7 @@ import { Menu } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="w-full h-16 bg-[#222222] fixed top-0 left-0">
+    <header className="w-full h-16 bg-[#222222] fixed top-0 left-0 z-50">
       <div className="container w-full mx-auto">
         <button className="w-full h-16 pr-3 flex items-center justify-end cursor-pointer md:hidden">
           <Menu />

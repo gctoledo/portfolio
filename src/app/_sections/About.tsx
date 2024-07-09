@@ -3,17 +3,11 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className="flex flex-col gap-9 items-center text-center">
-      <div className="w-[213px] h-[213px] rounded-full bg-gradient-to-br from-[#FF8660] to-[#9A33FF]">
-        <Image
-          src={"/Avatar.png"}
-          width={213}
-          height={213}
-          quality={100}
-          alt="Avatar"
-        />
+      <div className="w-[160px] h-[160px] md:w-[213px] md:h-[213px] relative rounded-full bg-gradient-to-br from-[#FF8660] to-[#9A33FF]">
+        <Image src={"/Avatar.png"} quality={100} fill alt="Avatar" />
       </div>
 
-      <h1 className="text-5xl font-bold leading-tight">
+      <h1 className="text-3xl md:text-5xl font-bold leading-tight">
         Escrevendo{" "}
         <span className="bg-gradient-to-br from-[#FF8660] to-[#9A33FF] bg-clip-text text-transparent">
           códigos
@@ -26,7 +20,7 @@ const About = () => {
         !
       </h1>
 
-      <h2 className="w-1/3 text-secondary font-light text-sm">
+      <h2 className="w-full md:w-1/3 text-secondary font-light text-sm">
         Bem-vindo ao meu portfólio! Meu nome é Gabriel, sou desenvolvedor com
         foco na stack <span className="text-[#f7df1e]">JavaScript</span>/
         <span className="text-[#007acc]">TypeScript</span>.
