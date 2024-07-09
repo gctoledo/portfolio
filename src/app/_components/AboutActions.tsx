@@ -1,8 +1,12 @@
 "use client";
 
 import Button from "./Button";
+import { useContext } from "react";
+import { ModalContext } from "../_context/ModalContext";
 
 const AboutActions = () => {
+  const { openModal } = useContext(ModalContext);
+
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "/curriculum.pdf";
@@ -11,9 +15,14 @@ const AboutActions = () => {
     link.click();
     document.body.removeChild(link);
   };
+
+  const openContactModal = () => {
+    openModal("Content");
+  };
+
   return (
     <>
-      <Button>Contato</Button>
+      <Button onClick={openContactModal}>Contato</Button>
 
       <Button styleType="secondary" onClick={handleDownload}>
         Download CV

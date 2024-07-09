@@ -6,8 +6,7 @@ const Footer = () => {
     <footer className="h-16 bg-[#222222]">
       <div className="w-full h-full px-2 container mx-auto flex items-center justify-between">
         <div>
-          <p>© 2024 | Gabriel Costa Toledo</p>
-          <p></p>
+          <p className="text-sm">© 2024 | Gabriel Costa Toledo</p>
         </div>
 
         <div className="flex gap-2 md:gap-6">
@@ -17,7 +16,7 @@ const Footer = () => {
             rel="noreferrer"
             className="hover:scale-125 duration-150"
           >
-            <Github />
+            <Github size={20} />
           </Link>
 
           <Link
@@ -26,7 +25,7 @@ const Footer = () => {
             rel="noreferrer"
             className="hover:scale-125 duration-150"
           >
-            <Linkedin />
+            <Linkedin size={20} />
           </Link>
         </div>
       </div>
