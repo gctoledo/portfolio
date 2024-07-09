@@ -1,18 +1,21 @@
 import Image from "next/image";
-import Button from "../_components/Button";
+import AboutActions from "../_components/AboutActions";
 
 const About = () => {
   return (
     <div className="flex flex-col gap-9 items-center text-center">
       <div className="flex items-center justify-center w-[164px] h-[164px] md:w-[218px] md:h-[218px] rounded-full bg-gradient-to-br from-[#FF8660] to-[#9A33FF]">
-        <div className="w-[152px] h-[152px] md:w-[206px] md:h-[206px] relative rounded-full opacity-95 hover:opacity-100 duration-200">
-          <Image
-            src={"/avatar.jpg"}
-            quality={100}
-            fill
-            alt="Avatar"
-            className="object-cover rounded-full"
-          />
+        <div className="overflow-hidden rounded-full">
+          {" "}
+          <div className="w-[152px] h-[152px] md:w-[206px] md:h-[206px] relative rounded-full opacity-95 hover:opacity-100 hover:scale-110 duration-200">
+            <Image
+              src={"/avatar.jpg"}
+              quality={100}
+              fill
+              alt="Avatar"
+              className="object-cover rounded-full "
+            />
+          </div>
         </div>
       </div>
 
@@ -40,9 +43,7 @@ const About = () => {
       </h2>
 
       <div className="flex gap-4">
-        <Button>Contato</Button>
-
-        <Button type="secondary">Download CV</Button>
+        <AboutActions />
       </div>
     </div>
   );
