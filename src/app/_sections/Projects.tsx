@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="space-y-6" id="projects">
       <SectionTitle type="orange">Projetos</SectionTitle>
 
-      <div className="flex gap-6 overflow-x-scroll overflow-y-hidden px-1">
+      <div className="flex gap-6 overflow-x-scroll overflow-y-hidden px-2">
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />

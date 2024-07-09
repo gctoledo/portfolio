@@ -10,8 +10,6 @@ const Home = () => {
         <About />
 
         <Projects />
-
-        <div>oi</div>
       </div>
     </>
   );
