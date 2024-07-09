@@ -5,3 +5,19 @@
 body {
   @apply bg-[#161513] text-white;
 }
+
+::-webkit-scrollbar {
+  @apply h-3;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#363636] bg-opacity-80 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-opacity-100;
+}

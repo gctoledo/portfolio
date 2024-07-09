@@ -8,6 +8,10 @@ const Home = () => {
       <Header />
       <div className="mt-28 md:mt-32 container mx-auto space-y-20 md:space-y-24">
         <About />
+
+        <Projects />
+
+        <div>oi</div>
       </div>
     </>
   );
