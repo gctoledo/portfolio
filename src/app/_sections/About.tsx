@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "../_components/Button";
 
 const About = () => {
   return (
@@ -30,13 +31,9 @@ const About = () => {
       </h2>
 
       <div className="flex gap-4">
-        <button className="w-40 cursor-pointer py-3 rounded-full text-[#161513] bg-white">
-          Contatos
-        </button>
+        <Button>Contato</Button>
 
-        <button className="w-40 cursor-pointer py-3 rounded-full border-2 border-white border-solid text-nowrap">
-          Download CV
-        </button>
+        <Button type="secondary">Download CV</Button>
       </div>
     </div>
   );
