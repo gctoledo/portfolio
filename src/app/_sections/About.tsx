@@ -4,8 +4,16 @@ import Button from "../_components/Button";
 const About = () => {
   return (
     <div className="flex flex-col gap-9 items-center text-center">
-      <div className="w-[160px] h-[160px] md:w-[213px] md:h-[213px] relative rounded-full bg-gradient-to-br from-[#FF8660] to-[#9A33FF]">
-        <Image src={"/Avatar.png"} quality={100} fill alt="Avatar" />
+      <div className="flex items-center justify-center w-[164px] h-[164px] md:w-[218px] md:h-[218px] rounded-full bg-gradient-to-br from-[#FF8660] to-[#9A33FF]">
+        <div className="w-[152px] h-[152px] md:w-[206px] md:h-[206px] relative rounded-full opacity-95 hover:opacity-100 duration-200">
+          <Image
+            src={"/avatar.jpg"}
+            quality={100}
+            fill
+            alt="Avatar"
+            className="object-cover rounded-full"
+          />
+        </div>
       </div>
 
       <h1 className="text-3xl md:text-5xl font-bold leading-tight select-none">
@@ -22,11 +30,12 @@ const About = () => {
       </h1>
 
       <h2 className="w-full md:w-1/3 text-secondary font-light text-sm">
-        Bem-vindo ao meu portfólio! Meu nome é Gabriel, sou desenvolvedor com
-        foco na stack <span className="text-[#f7df1e]">JavaScript</span>/
+        Bem-vindo ao meu portfólio! Meu nome é Gabriel, sou desenvolvedor
+        full-stack com foco na stack{" "}
+        <span className="text-[#f7df1e]">JavaScript</span>/
         <span className="text-[#007acc]">TypeScript</span>.
         <br />
-        Sou completamente apaixonado por tecnologia e como posso impactar
+        Sou completamente apaixonado por tecnologia e como eu consigo impactar
         pessoas com ela.
       </h2>
 
