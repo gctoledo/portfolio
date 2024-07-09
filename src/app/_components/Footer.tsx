@@ -4,13 +4,13 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="h-16 bg-[#222222]">
-      <div className="w-full h-full container mx-auto flex items-center justify-between">
+      <div className="w-full h-full px-2 container mx-auto flex items-center justify-between">
         <div>
           <p>© 2024 | Gabriel Costa Toledo</p>
           <p></p>
         </div>
 
-        <div className="flex gap-6">
+        <div className="flex gap-2 md:gap-6">
           <Link
             href={"https://github.com/gctoledo"}
             target="_blank"
