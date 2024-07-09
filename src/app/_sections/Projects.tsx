@@ -1,4 +1,4 @@
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../_components/ProjectCard";
 import SectionTitle from "../_components/SectionTitle";
 
 const Projects = () => {
