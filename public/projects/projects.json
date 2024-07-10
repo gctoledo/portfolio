@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "name": "Portfolio",
+      "image": "/projects/portfolio.jpg",
+      "stacks": ["reactjs", "nextjs", "typescript", "tailwindcss"],
+      "description": "Projeto de portfólio"
+    },
+    {
+      "name": "Aplicativo financeiro",
+      "image": "/projects/appfinanceiro.jpg",
+      "stacks": [
+        "reactjs",
+        "nextjs",
+        "typescript",
+        "tailwindcss",
+        "nodejs",
+        "prisma",
+        "postgresql",
+        "docker"
+      ],
+      "description": "A ideia do projeto é aprimorar a organização das finanças de um estabelecimento comercial, que antes eram todas feitas por planilhas. Apesar de ser um modo bastante funcional, isso me gerou uma vontade muito grande de construir uma aplicação que pudesse armazenar essas dados de uma forma mais segura e, além disso, conseguir manipular esses dados para criar insights sobre como melhorar o gerenciamento das finanças do estabelecimento. Com isso desenvolvi essa aplicação, que apesar de simples e feita para fins didáticos, tenho muito orgulho em dizer que supre todas as necessidades para as pessoas que me incentivaram a criar esse sistema. O projeto é uma API, que será integrado com um sistema web, utilizando JWT para autenticação de rotas privadas, Express para desenvolvimento das rotas, Prisma como ORM para interação com o banco de dados (PostgreSQL)."
+    },
+    {
+      "name": "FSW Store",
+      "image": "/projects/fswstore.jpg",
+      "stacks": [
+        "reactjs",
+        "nextjs",
+        "typescript",
+        "tailwindcss",
+        "prisma",
+        "postgresql"
+      ],
+      "description": "Projeto de um e-commerce para periféricos. O projeto consiste em um e-commerce, onde o cliente pode adicionar produtos, selecionar o tamanho e quantidade e finalizar a compra do pedido. O projeto foi desenvolvido com Next.js, TypeScript, Prisma, PostgreSQL e Tailwind CSS."
+    }
+  ]
+}

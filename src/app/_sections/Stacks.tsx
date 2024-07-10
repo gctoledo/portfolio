@@ -1,19 +1,20 @@
+import { Stacks as _Stacks } from "@/app/_types/stacks";
 import SectionTitle from "../_components/SectionTitle";
 import StackCard from "../_components/StackCard";
 
-const stacks = [
-  "html5",
-  "css3",
-  "js",
-  "typescript",
-  "reactjs",
-  "prisma",
-  "nextjs",
-  "nodejs",
-  "jest",
-  "docker",
-  "postgresql",
-  "graphql",
+const stacks: _Stacks[] = [
+  _Stacks.HTML,
+  _Stacks.CSS,
+  _Stacks.Javascript,
+  _Stacks.Typescript,
+  _Stacks.React,
+  _Stacks.Next,
+  _Stacks.Node,
+  _Stacks.Prisma,
+  _Stacks.PostgreSQL,
+  _Stacks.Jest,
+  _Stacks.Docker,
+  _Stacks.GraphQL,
 ];
 
 const Stacks = () => {
