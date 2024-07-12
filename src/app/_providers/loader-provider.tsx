@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Loading from "../_sections/Loading";
+import Loading from "../_components/Loading";
 
 const LoaderProvider = ({ children }: { children: React.ReactNode }) => {
   const [progress, setProgress] = useState(0);

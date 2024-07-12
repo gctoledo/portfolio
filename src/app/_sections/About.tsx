@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <div
-      className="flex flex-col gap-9 items-center text-center px-2"
+      className="flex flex-col gap-9 items-center text-center px-2 md:py-10 lg:py-0"
       id="about"
     >
       <motion.div
