@@ -3,7 +3,10 @@ import Avatar from "../_components/Avatar";
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-9 items-center text-center px-2">
+    <div
+      className="flex flex-col gap-9 items-center text-center px-2"
+      id="about"
+    >
       <Avatar />
 
       <h1 className="text-3xl md:text-5xl font-bold leading-tight select-none">
@@ -19,7 +22,7 @@ const About = () => {
         !
       </h1>
 
-      <h2 className="w-full lg:w-1/3 text-secondary font-light text-sm">
+      <h2 className="w-full lg:w-1/3 text-[#C5C5C5] font-light text-sm">
         Bem-vindo ao meu portfólio! Meu nome é Gabriel, sou desenvolvedor
         full-stack com foco na stack{" "}
         <span className="text-[#f7df1e]">JavaScript</span>/

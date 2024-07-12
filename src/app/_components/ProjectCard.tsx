@@ -21,7 +21,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 
       <div className="w-full flex justify-between px-4 mt-6 md:mt-5 items-center cursor-pointer">
         <div>
-          <span className="font-bold text-secondary text-xs uppercase hidden md:block">
+          <span className="font-bold text-[#C5C5C5] text-xs uppercase hidden md:block">
             Clique aqui para saber mais!
           </span>
 
