@@ -3,7 +3,7 @@ import ProjectCard from "../_components/ProjectCard";
 import SectionTitle from "../_components/SectionTitle";
 import { Project } from "../_types/stacks";
 
-const projects: Project[] = projectsJSON.data;
+const projects: Project[] = projectsJSON.data.reverse();
 
 const Projects = () => {
   return (
