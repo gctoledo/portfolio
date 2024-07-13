@@ -9,11 +9,9 @@ interface NavLinkProps {
 
 const NavLink = ({ children, href, offset, classname }: NavLinkProps) => {
   return (
-    <li>
-      <SmoothScrollLink offset={offset} href={href} classname={classname}>
-        {children}
-      </SmoothScrollLink>
-    </li>
+    <SmoothScrollLink offset={offset} href={href} classname={classname}>
+      {children}
+    </SmoothScrollLink>
   );
 };
 

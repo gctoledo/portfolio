@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { SquareArrowUpRight } from "lucide-react";
-import { Project } from "../_types/stacks";
+import { Project } from "../_types/project";
 
 interface ProjectCardProps {
   project: Project;

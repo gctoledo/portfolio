@@ -1,7 +1,7 @@
 import projectsJSON from "../../../public/projects/projects.json";
 import ProjectCard from "../_components/ProjectCard";
 import SectionTitle from "../_components/SectionTitle";
-import { Project } from "../_types/stacks";
+import { Project } from "../_types/project";
 
 const projects: Project[] = projectsJSON.data.reverse();
 
