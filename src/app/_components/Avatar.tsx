@@ -10,6 +10,8 @@ const Avatar = () => {
             src={"/avatar.jpg"}
             quality={100}
             fill
+            sizes="(100%, 100%)"
+            priority
             alt="Avatar"
             className="object-cover rounded-full"
           />

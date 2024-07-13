@@ -12,6 +12,8 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       <div className="relative w-52 md:w-80 h-48 opacity-85 hover:opacity-100 duration-200">
         <Image
           src={project.image}
+          sizes="(100%, 100%)"
+          priority
           fill
           className="object-cover rounded-t-xl"
           quality={100}
