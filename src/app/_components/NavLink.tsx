@@ -1,4 +1,3 @@
-import { twMerge } from "tailwind-merge";
 import SmoothScrollLink from "./SmothScrollLink";
 
 interface NavLinkProps {
