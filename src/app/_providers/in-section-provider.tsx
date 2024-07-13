@@ -7,7 +7,7 @@ const InSectionProvider = ({ children }: { children: React.ReactNode }) => {
     <motion.div
       initial={{ y: 200, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
-      viewport={{ once: true }}
+      viewport={{ once: false, margin: "-100px" }}
     >
       {children}
     </motion.div>

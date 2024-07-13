@@ -12,16 +12,18 @@ const Home = () => {
     <div>
       <Header />
 
-      <div className="mt-28 mb-12 container mx-auto space-y-20 md:mt-32 md:mb16 md:space-y-24">
+      <div className="mb-16 container mx-auto ">
         <About />
 
-        <InSectionProvider>
-          <Projects />
-        </InSectionProvider>
+        <div className="space-y-16 md:space-y-24">
+          <InSectionProvider>
+            <Projects />
+          </InSectionProvider>
 
-        <InSectionProvider>
-          <Stacks />
-        </InSectionProvider>
+          <InSectionProvider>
+            <Stacks />
+          </InSectionProvider>
+        </div>
       </div>
 
       <Footer />
