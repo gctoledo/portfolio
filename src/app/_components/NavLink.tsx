@@ -1,4 +1,4 @@
-import SmoothScrollLink from "./SmothScrollLink";
+import ScrollLink from "./ScrollLink";
 
 interface NavLinkProps {
   offset: number;
@@ -9,9 +9,9 @@ interface NavLinkProps {
 
 const NavLink = ({ children, href, offset, classname }: NavLinkProps) => {
   return (
-    <SmoothScrollLink offset={offset} href={href} classname={classname}>
+    <ScrollLink offset={offset} href={href} classname={classname}>
       {children}
-    </SmoothScrollLink>
+    </ScrollLink>
   );
 };
 

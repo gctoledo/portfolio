@@ -3,19 +3,19 @@ import React from "react";
 import Link from "next/link";
 import { twMerge } from "tailwind-merge";
 
-interface SmoothScrollLinkProps {
+interface ScrollLinkProps {
   href: string;
   offset?: number;
   children: React.ReactNode;
   classname?: string;
 }
 
-const SmoothScrollLink = ({
+const ScrollLink = ({
   href,
   offset = 0,
   children,
   classname,
-}: SmoothScrollLinkProps) => {
+}: ScrollLinkProps) => {
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     const targetId = href.replace("#", "");
@@ -46,4 +46,4 @@ const SmoothScrollLink = ({
   );
 };
 
-export default SmoothScrollLink;
+export default ScrollLink;
