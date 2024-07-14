@@ -7,7 +7,7 @@ const Header = () => {
     <motion.header
       animate={{ top: [-200, 0], opacity: [0, 1] }}
       transition={{ duration: 0.8, delay: 0.1 }}
-      className="opacity-0 w-full h-16 bg-gradient-to-b from-[#222222] to-[#1a1a1a] fixed top-0 left-0 shadow-md shadow-black/20 z-50"
+      className="opacity-0 w-full h-16 bg-gradient-to-b from-[#222222] to-[#1a1a1a] fixed top-0 left-0 shadow-md shadow-black/20 z-40"
     >
       <div className="container w-full mx-auto md:flex justify-between items-center">
         <button className="w-full h-16 pr-3 flex items-center justify-end cursor-pointer md:hidden">
