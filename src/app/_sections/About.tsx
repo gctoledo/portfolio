@@ -43,8 +43,8 @@ const About = () => {
         <h2 className="text-[#C5C5C5] font-light text-sm">
           Bem-vindo ao meu portfólio! Meu nome é Gabriel, sou desenvolvedor
           full-stack com foco na stack{" "}
-          <span className="text-[#f7df1e]">JavaScript</span>/
-          <span className="text-[#007acc]">TypeScript</span>.
+          <span className="text-javascript">JavaScript</span>/
+          <span className="text-typescript">TypeScript</span>.
           <br />
           Sou completamente apaixonado por tecnologia e como eu consigo impactar
           pessoas com ela.
