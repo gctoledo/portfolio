@@ -3,6 +3,7 @@
 import Button from "./Button";
 import { useContext } from "react";
 import { ModalContext } from "../_context/ModalContext";
+import AboutMe from "./AboutMe";
 
 const AboutActions = () => {
   const { openModal } = useContext(ModalContext);
@@ -17,12 +18,12 @@ const AboutActions = () => {
   };
 
   const openContactModal = () => {
-    openModal("Content");
+    openModal(<AboutMe />, "Sobre mim");
   };
 
   return (
     <>
-      <Button onClick={openContactModal}>Contato</Button>
+      <Button onClick={openContactModal}>Sociais</Button>
 
       <Button styleType="secondary" onClick={handleDownload}>
         Download CV
