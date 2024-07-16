@@ -12,7 +12,7 @@ const Section = ({ children, sectionId }: SectionProps) => {
     <motion.div
       initial={{ y: 200, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
-      viewport={{ once: false, margin: "-100px" }}
+      viewport={{ once: false, margin: "-75px" }}
       className="space-y-6"
       id={sectionId}
     >
