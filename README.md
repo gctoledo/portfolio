@@ -2,7 +2,7 @@
 
 ## 🔥 Introdução
 
-O projeto consiste em uma SPA simples para um portfólio. Você pode conferir meus projetos, stacks, redes sociais e uma aba para contato.
+O projeto consiste em uma aplicação front-end simples para portfólio. Você pode conferir meus projetos, stacks, redes sociais e uma aba para contato.
 
 ## 🔥 Próximos passos
 
