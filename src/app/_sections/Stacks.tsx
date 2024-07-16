@@ -24,7 +24,7 @@ const Stacks = () => {
 
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-y-6 justify-items-center">
         {stacks.map((stack) => (
-          <StackCard stack={stack} key={stack} />
+          <StackCard type="large" stack={stack} key={stack} />
         ))}
       </div>
     </Section>
