@@ -3,6 +3,7 @@ export type Project = {
   image: string;
   stacks: string[];
   description: string;
+  repository: string;
 };
 
 export interface ProjectsJSON {
