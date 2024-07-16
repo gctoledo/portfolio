@@ -23,7 +23,7 @@ const AboutActions = () => {
 
   return (
     <>
-      <Button onClick={openContactModal}>Sociais</Button>
+      <Button onClick={openContactModal}>Sobre mim</Button>
 
       <Button styleType="secondary" onClick={handleDownload}>
         Download CV
