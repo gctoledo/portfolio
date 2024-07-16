@@ -1,3 +1,5 @@
+"use client";
+
 import AboutActions from "../_components/AboutActions";
 import Avatar from "../_components/Avatar";
 import { motion } from "framer-motion";

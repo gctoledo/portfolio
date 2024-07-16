@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 import { Menu } from "lucide-react";
 import Nav from "./Nav";

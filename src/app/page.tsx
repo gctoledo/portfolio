@@ -1,11 +1,8 @@
-"use client";
-
-import About from "./_sections/About";
 import Header from "./_components/Header";
-import Projects from "./_sections/Projects";
 import Footer from "./_components/Footer";
+import About from "./_sections/About";
+import Projects from "./_sections/Projects";
 import Stacks from "./_sections/Stacks";
-import InSectionProvider from "./_providers/in-section-provider";
 
 const Home = () => {
   return (
@@ -16,13 +13,9 @@ const Home = () => {
         <About />
 
         <div className="space-y-16 md:space-y-24">
-          <InSectionProvider>
-            <Projects />
-          </InSectionProvider>
+          <Projects />
 
-          <InSectionProvider>
-            <Stacks />
-          </InSectionProvider>
+          <Stacks />
         </div>
       </div>
 
