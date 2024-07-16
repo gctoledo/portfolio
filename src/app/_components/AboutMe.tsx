@@ -6,7 +6,7 @@ const social_midias = [
     name: "Github",
     link: "https://github.com/gctoledo",
     icon: <Github />,
-    color: "#fff",
+    color: "#fafbfc",
   },
   {
     name: "Linkedin",
@@ -38,7 +38,7 @@ const AboutMe = () => {
         <span className="text-javascript">JavaScript</span>/
         <span className="text-typescript">Typescript</span>, passando por todo
         front-end com HTML, CSS, JavaScript, React.js, utilizando diversas
-        tecnologias, como Next.js.
+        tecnologias, sendo a minha favorita o Next.js.
       </p>
 
       <p>
@@ -64,7 +64,7 @@ const AboutMe = () => {
               className="pt-1"
             >
               Visite o meu{" "}
-              <span className={`font-bold text-[${midia.color}]`}>
+              <span className={`font-bold`} style={{ color: midia.color }}>
                 {midia.name}!
               </span>
             </Link>
