@@ -1,8 +1,8 @@
+import "./globals.css";
+
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import "./globals.css";
-import ModalContextProvider from "./_context/ModalContext";
-import LoaderProvider from "./_providers/loader-provider";
+import RootProviders from "./_providers/root-providers";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -22,9 +22,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={poppins.className}>
-        <LoaderProvider>
-          <ModalContextProvider>{children}</ModalContextProvider>
-        </LoaderProvider>
+        <RootProviders>{children}</RootProviders>
       </body>
     </html>
   );

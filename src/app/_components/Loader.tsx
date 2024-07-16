@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Loading from "../_components/Loading";
+import ProgressBar from "../_components/ProgressBar";
 
-const LoaderProvider = ({ children }: { children: React.ReactNode }) => {
+const Loader = ({ children }: { children: React.ReactNode }) => {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ const LoaderProvider = ({ children }: { children: React.ReactNode }) => {
     };
   }, [progress]);
 
-  return <>{progress === 110 ? children : <Loading loader={progress} />}</>;
+  return <>{progress === 110 ? children : <ProgressBar loader={progress} />}</>;
 };
 
-export default LoaderProvider;
+export default Loader;
