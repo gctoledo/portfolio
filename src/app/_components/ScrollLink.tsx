@@ -35,7 +35,7 @@ const ScrollLink = ({
   return (
     <Link
       className={twMerge(
-        `flex h-full w-36 lg:w-48 items-center justify-center hover:bg-black hover:bg-opacity-10`,
+        `flex h-full w-36 lg:w-48 md:hover:bg-black hover:bg-opacity-10`,
         classname || ""
       )}
       href={href}

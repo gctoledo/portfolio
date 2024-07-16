@@ -8,7 +8,7 @@ const Nav = () => {
           <NavLink
             offset={500}
             href={"#about"}
-            classname="border-l-2 border-[#161513] border-opacity-35"
+            classname="flex items-center justify-center border-l-2 border-[#161513] border-opacity-35"
           >
             Sobre mim
           </NavLink>
@@ -18,7 +18,7 @@ const Nav = () => {
           <NavLink
             offset={500}
             href={"#projects"}
-            classname="border-x-2 border-[#161513] border-opacity-35"
+            classname="flex items-center justify-center border-x-2 border-[#161513] border-opacity-35"
           >
             Projetos
           </NavLink>
@@ -28,7 +28,7 @@ const Nav = () => {
           <NavLink
             offset={500}
             href={"#stacks"}
-            classname="border-r-2 border-[#161513] border-opacity-35"
+            classname="flex items-center justify-center border-r-2 border-[#161513] border-opacity-35"
           >
             Tecnologias
           </NavLink>
