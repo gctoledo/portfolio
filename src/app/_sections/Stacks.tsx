@@ -10,11 +10,11 @@ const stacks: string[] = [
   "ReactJS",
   "NextJS",
   "NodeJS",
-  "Prisma",
   "PostgreSQL",
   "Jest",
+  "Java",
+  "Spring",
   "Docker",
-  "GraphQL",
 ];
 
 const Stacks = () => {
