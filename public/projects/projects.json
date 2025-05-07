@@ -1,15 +1,8 @@
 {
   "data": [
     {
-      "name": "FSW Store",
-      "image": "/projects/fswstore.jpg",
-      "stacks": ["reactjs", "nextjs", "typescript", "prisma", "postgresql"],
-      "description": "Projeto de um e-commerce para periféricos. O projeto consiste em um e-commerce, onde o cliente pode adicionar produtos, selecionar o tamanho e quantidade e finalizar a compra do pedido. O projeto foi desenvolvido com Next.js, TypeScript, Prisma, PostgreSQL e Tailwind CSS.",
-      "repository": "#"
-    },
-    {
       "name": "Aplicativo financeiro",
-      "image": "/projects/appfinanceiro.jpg",
+      "image": "/projects/appfinanceiro.webp",
       "stacks": [
         "reactjs",
         "nextjs",
@@ -24,17 +17,38 @@
     },
     {
       "name": "Portfolio",
-      "image": "/projects/portfolio.jpg",
+      "image": "/projects/portfolio.webp",
       "stacks": ["reactjs", "nextjs", "typescript"],
       "description": "O projeto consiste em uma aplicação front-end simples para portfólio. Você pode conferir meus projetos, stacks, redes sociais e uma aba para contato.",
       "repository": "https://github.com/gctoledo/portfolio"
     },
     {
+      "name": "Fake Gympass",
+      "image": "/projects/fakegympass.webp",
+      "stacks": ["nodejs", "typescript", "prisma", "postgresql"],
+      "description": "Projeto de uma RESTful API. O projeto foi criado para fins didáticos para solidifcar os conhecimentos com o micro-framework Fasitfy e a realização de testes com o Vitest. Um dos focos do projeto foi trabalhar com alguns conceitos para criação de aplicações. Seguindo alguns princípios do SOLID, utilizei repository pattern para melhor divisão de camadas e suas responsabilidades, separando completamente as regras de negócio da aplicação do mundo externo, tanto do banco de dados, quanto dos endpoints. Isso, somado com a Injeção de Dependências, facilita e muito o processo de criação de testes, principalmente os testes unitários das regras de negócio, que são os testes mais importantes da aplicação. Além disso, os casos de uso (use-cases), foi desenvolvidos usando uma dinâmica de TDD.",
+      "repository": "https://github.com/gctoledo/fake_gympass"
+    },
+    {
       "name": "Organiz.er",
-      "image": "/projects/organizer.jpg",
-      "stacks": ["reactjs", "nextjs", "typescript", "prisma", "nodejs"],
-      "description": "Projeto de aplicação para organização de viagem. O projeto possui back-end criado com Fastify e front-end com NextJS.",
-      "repository": "#"
+      "image": "/projects/organizer.webp",
+      "stacks": ["nodejs", "typescript", "prisma", "postgresql"],
+      "description": "A aplicação consiste em uma RESTful API de um sistema de gerenciador de viagem. O usuário pode se cadastrar, criar viagens, convidar novos participantes, criar novas atividades, entre outras funcionalidades. O projeto foi criado com Node.js, utilizando Fastify, Typescript, Vitest, Prisma, Zod, Nodemailer, entre outras ótimas tecnologias. Utiliza autenticação baseado em JWT, junto com um sistema de refresh token para revalidação de acesso. Os participantes convidados não precisam ter conta para serem convidados, sendo esse processo feito e validado por envio de e-mail para confirmação do participante utilizando Nodemailer.",
+      "repository": "https://github.com/gctoledo/organizer-api"
+    },
+    {
+      "name": "E-ventos",
+      "image": "/projects/eventos.webp",
+      "stacks": ["ruby", "rails", "docker", "postgresql"],
+      "description": "Este é um sistema completo de gerenciamento de eventos, permitindo que organizadores criem e gerenciem eventos de forma eficiente. O aplicativo suporta a criação de contas de organizadores, cadastro de eventos, configuração de ingressos e agendas, além da verificação de usuários. Administradores têm acesso a ferramentas para moderar usuários, gerenciar categorias de eventos e configurar palavras-chave para facilitar buscas. O sistema também controla limites de participantes e lotes de ingressos, com diferentes opções e preços.",
+      "repository": "https://github.com/TreinaDev/events-app"
+    },
+    {
+      "name": "QrCode generator",
+      "image": "/projects/qrcodegenerator.webp",
+      "stacks": ["java", "spring", "docker", "aws"],
+      "description": "QR Code Generator é uma API REST desenvolvida com Java 21 e Spring Boot 3.4.4 para gerar QR Codes a partir de um texto e armazená-los automaticamente em um bucket S3 na AWS. O projeto utiliza a biblioteca ZXing para geração dos códigos e a SDK oficial da AWS para upload dos arquivos.",
+      "repository": "https://github.com/gctoledo/qrcode-generator"
     }
   ]
 }
