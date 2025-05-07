@@ -4,18 +4,6 @@
 
 O projeto consiste em uma aplicação front-end simples para portfólio. Você pode conferir meus projetos, stacks, redes sociais e uma aba para contato.
 
-## 🔥 Próximos passos
-
-O que está nos próximos passos do desenvolvimento:
-
-[ ] - Finalizar detalhes do projeto inicial
-
-[ ] - Página administrativa para adicionar/remover projetos, redes sociais...
-
-[ ] - Testes automatizados com Jest
-
-#
-
 ### 🔨 Guia de instalação
 
 Para visualizar o projeto é necessário possuir o NodeJS instalado em sua máquina. Você pode fazer um clone do repositório e executar os seguintes comandos no terminal para visualizar o projeto:
