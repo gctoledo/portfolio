@@ -35,6 +35,7 @@ const config = {
       textColor: {
         javascript: "#f7df1e",
         typescript: "#007acc",
+        java: "#b61616",
       },
     },
   },

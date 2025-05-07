@@ -31,7 +31,7 @@ const About = () => {
           e<br />
           construindo{" "}
           <span className="bg-gradient-to-tl from-[#FF8660] to-[#9A33FF] bg-clip-text text-transparent">
-            coisas
+            soluções
           </span>
           !
         </h1>
@@ -43,13 +43,10 @@ const About = () => {
         transition={{ duration: 0.5, delay: 1.5 }}
       >
         <h2 className="text-[#C5C5C5] font-light text-sm">
-          Bem-vindo ao meu portfólio! Meu nome é Gabriel, sou desenvolvedor
-          full-stack com foco na stack{" "}
-          <span className="text-javascript">JavaScript</span>/
-          <span className="text-typescript">TypeScript</span>.
-          <br />
-          Sou completamente apaixonado por tecnologia e como eu consigo impactar
-          pessoas com ela.
+          Apaixonado por tecnologia, construo soluções modernas com{" "}
+          <span className="text-javascript">JavaScript</span>,
+          <span className="text-typescript"> TypeScript</span> e{" "}
+          <span className="text-java">Java</span> — da interface ao backend.
         </h2>
       </motion.div>
 

@@ -25,28 +25,31 @@ const social_midias = [
 const AboutMe = () => {
   return (
     <div className="space-y-6 text-sm">
-      <h1 className="text-lg">Olá! Meu nome é Gabriel</h1>
+      <h1 className="text-lg">🔥 Full Stack Developer</h1>
 
       <p>
-        Me formei em Engenharia Civil e hoje curso Ciência da Computação. Não
-        demorou muito depois da minha primeira graduação para descobrir que eu
-        amo tecnologia e que eu quero investir todo meu esforço nessa área.
+        Entusiasta da tecnologia, atualmente curso Ciência da Computação e
+        dedico minha trajetória à construção de soluções robustas e bem
+        arquitetadas. Venho me aprofundando em tecnologias modernas, com paixão
+        por aprender e evoluir constantemente.
       </p>
 
       <p>
-        Foquei muito na stack{" "}
-        <span className="text-javascript">JavaScript</span>/
-        <span className="text-typescript">Typescript</span>, passando por todo
-        front-end com HTML, CSS, JavaScript, React.js, utilizando diversas
-        tecnologias, sendo a minha favorita o Next.js.
+        Atuo há mais de 1 ano com a stack JavaScript, passando por todo o
+        ecossistema de desenvolvimento web — desde interfaces ricas com React e
+        Next.js até APIs performáticas com Node.js, Express e Fastify, com
+        cobertuda de testes automatizados utilizando Jest e Vitest. Tenho sólida
+        experiência com bancos de dados relacionais e não relacionais, como
+        PostgreSQL e MongoDB.
       </p>
 
       <p>
-        Há um tempo venho investindo muito meus estudos também no ecossistema
-        Node, utilizando algumas tecnologias também no back-end. Além disso já
-        trabalhei com banco de dados SQL e NoSQL, principalmente PostgreSQL
-        trabalhando em conjunto com containers Docker.
+        Também atuei em projetos Ruby on Rails para desenvolvimento de
+        aplicações completas, sempre utilizando Docker e Docker Compose para
+        garantir ambientes consistentes de desenvolvimento.
       </p>
+
+      <p>Atualmente, estou me especializando no ecossistema Java Spring.</p>
 
       <h3>
         Você pode me encontrar em algumas redes sociais, fique à vontade para
