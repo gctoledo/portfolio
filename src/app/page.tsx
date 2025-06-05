@@ -3,6 +3,7 @@ import Footer from "./_components/Footer";
 import About from "./_sections/About";
 import Projects from "./_sections/Projects";
 import Stacks from "./_sections/Stacks";
+import Contact from "./_sections/Contact";
 
 const Home = () => {
   return (
@@ -16,6 +17,8 @@ const Home = () => {
           <Projects />
 
           <Stacks />
+
+          <Contact />
         </div>
       </div>
 

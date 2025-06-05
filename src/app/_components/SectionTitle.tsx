@@ -1,5 +1,5 @@
 interface SectionTitleProps {
-  type: "orange" | "blue";
+  type: "orange" | "blue" | "red";
   children: string;
 }
 
@@ -15,6 +15,14 @@ const SectionTitle = ({ children, type }: SectionTitleProps) => {
   if (type === "orange") {
     return (
       <h2 className="text-3xl text-center font-extrabold uppercase bg-gradient-to-b from-[#FF8660] to-[#D5491D] bg-clip-text text-transparent">
+        {children}
+      </h2>
+    );
+  }
+
+  if (type === "red") {
+    return (
+      <h2 className="text-3xl text-center font-extrabold uppercase bg-gradient-to-b from-[#ce6a6a] to-[#ca2828] bg-clip-text text-transparent">
         {children}
       </h2>
     );
