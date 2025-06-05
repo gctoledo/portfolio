@@ -58,7 +58,7 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 text-black">
-      <div className="grid grid-cols-2 gap-4">
+      <div className="block space-y-4 md:grid md:grid-cols-2 md:gap-4 md:space-y-0">
         <div>
           <input
             placeholder="Nome"
