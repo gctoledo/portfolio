@@ -33,6 +33,16 @@ const Nav = () => {
             Tecnologias
           </NavLink>
         </li>
+
+        <li>
+          <NavLink
+            offset={500}
+            href={"#contact"}
+            classname="flex items-center justify-center border-r-2 border-[#161513] border-opacity-35"
+          >
+            Contato
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
