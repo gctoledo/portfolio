@@ -32,6 +32,12 @@ const MobileNav = ({ close }: MobileNavProps) => {
               Tecnologias
             </NavLink>
           </li>
+
+          <li className="bg-[#222222] px-4 py-4" onClick={close}>
+            <NavLink offset={500} href={"#contact"}>
+              Contact
+            </NavLink>
+          </li>
         </ul>
       </motion.nav>
     </AnimatePresence>
