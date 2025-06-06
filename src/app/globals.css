@@ -11,7 +11,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  @apply h-3;
+  @apply h-3 w-1;
 }
 
 ::-webkit-scrollbar-track {

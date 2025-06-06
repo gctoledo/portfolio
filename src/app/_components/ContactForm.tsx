@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useState } from "react";
+import Input from "./Input";
 
 const contactSchema = z.object({
   name: z.string().min(3, "O nome precisa ter pelo menos 3 caracteres"),
@@ -57,49 +58,31 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 text-black">
+    <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
       <div className="block space-y-4 md:grid md:grid-cols-2 md:gap-4 md:space-y-0">
         <div>
-          <input
-            placeholder="Nome"
-            {...register("name")}
-            className="w-full p-2 border rounded"
-          />
+          <Input placeholder="Nome" {...register("name")} type="text" />
           {errors.name && (
             <p className="text-red-600 text-sm mt-1">{errors.name.message}</p>
           )}
         </div>
 
         <div>
-          <input
-            type="email"
-            placeholder="Email"
-            {...register("email")}
-            className="w-full p-2 border rounded"
-          />
+          <Input type="email" placeholder="Email" {...register("email")} />
           {errors.email && (
             <p className="text-red-600 text-sm mt-1">{errors.email.message}</p>
           )}
         </div>
 
         <div>
-          <input
-            type="text"
-            placeholder="Telefone"
-            {...register("phone")}
-            className="w-full p-2 border rounded"
-          />
+          <Input placeholder="Telefone" type="tel" {...register("phone")} />
           {errors.phone && (
             <p className="text-red-600 text-sm mt-1">{errors.phone.message}</p>
           )}
         </div>
 
         <div>
-          <input
-            placeholder="Assunto"
-            {...register("subject")}
-            className="w-full p-2 border rounded"
-          />
+          <Input placeholder="Assunto" {...register("subject")} type="text" />
           {errors.subject && (
             <p className="text-red-600 text-sm mt-1">
               {errors.subject.message}
@@ -112,7 +95,7 @@ export default function ContactForm() {
         <textarea
           placeholder="Mensagem"
           {...register("message")}
-          className="w-full p-2 border rounded"
+          className="w-full p-2 border rounded bg-zinc-800 border-zinc-800 outline-none focus:border-zinc-800 focus:ring-0 text-zinc-400 text-sm"
         />
         {errors.message && (
           <p className="text-red-600 text-sm">{errors.message.message}</p>
